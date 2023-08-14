@@ -1,9 +1,9 @@
 # React Audio Player
 
-This is a simple audio player which retrieves songs from an api and lets the user play them.
+This is a simple todo list in React.
 
-The user can select a song, play random song, repeat song, set the volume and set the time of the song.
+The user can add and delete tasks.
 
 Preview:
 
-<img src="previewAudioPlayer.JPG" alt="Preview of Audio Player">
+<img src="preview.JPG" alt="Preview of To Do List">

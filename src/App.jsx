@@ -18,6 +18,12 @@ function App() {
               <ToDoList></ToDoList>
             </Col>
           </Row>
+
+          <Row className='p-3 bg-dark text-center text-white'>
+                    <Col xs="12">
+                        Made with ❤️ by Ryan Daniels
+                    </Col>
+                </Row>
         </Container>
 
       </React.StrictMode>
