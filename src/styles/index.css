@@ -1,0 +1,158 @@
+
+.inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* audio info */
+.audio-info {
+  display: flex;
+  gap: 20px;
+}
+
+.text {
+  color: #f50;
+}
+
+.title {
+  color: #fff;
+  font-size: clamp(1rem, 0.1vw + 0.75rem, 1.5rem);
+  padding: 0;
+  margin: 0;
+}
+
+/* audio image */
+.icon-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.audio-image {
+  height: 100%;
+  width: 100%;
+}
+
+.audio-icon {
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background: #989898;
+}
+
+.audio-image img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  vertical-align: middle;
+}
+
+/* controls */
+.controls-wrapper {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.controls button, .volume button {
+  border: none;
+  background-color: transparent;
+  margin-right: 8px;
+  cursor: pointer;
+}
+
+.controls button:hover, .volume button:hover{
+  background-color: #989898;
+}
+
+.controls .pressed{
+  color: #f50;
+}
+
+button svg {
+  font-size: 20px;
+}
+
+.volume {
+  display: flex;
+  align-items: center;
+}
+
+.volume button {
+  margin: 0;
+}
+
+.progress {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+}
+
+/* time */
+.time {
+  color: #333;
+  font-size: 13px;
+  line-height: 46px;
+}
+
+.time.current {
+  color: #f50;
+}
+
+/* Top bar */
+.top__bar {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  text-align: center;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  background-color: #fafafa;
+  border-bottom: 1px solid #f0f0f2;
+}
+
+.top__bar a {
+  color: inherit;
+}
+
+.top__bar p {
+  margin: 0;
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(200,200,200,1);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color:#706f6f;
+  -webkit-box-shadow: inset 0 0 6px rgba(90,90,90,0.7);
+}
+
+#music-list{
+  height: 70vh;
+}
+
+#controls{
+  height: 15vh;
+}
+
+@media (max-width: 576px) {
+  #music-list {
+    height: 60vh;
+  }
+
+  #controls{
+    height: 25vh;
+  }
+}
