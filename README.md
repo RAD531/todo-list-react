@@ -1,8 +1,9 @@
-# React + Vite
+# React Audio Player
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple audio player which retrieves songs from an api and lets the user play them.
 
-Currently, two official plugins are available:
+The user can select a song, play random song, repeat song, set the volume and set the time of the song.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Preview:
+
+<img src="preview.JPG" alt="Preview of Audio Player">
