@@ -1,4 +1,4 @@
-# React Audio Player
+# React To-Do List
 
 This is a simple todo list in React.
 
