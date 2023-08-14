@@ -6,4 +6,4 @@ The user can select a song, play random song, repeat song, set the volume and se
 
 Preview:
 
-<img src="preview.JPG" alt="Preview of Audio Player">
+<img src="previewAudioPlayer.JPG" alt="Preview of Audio Player">
